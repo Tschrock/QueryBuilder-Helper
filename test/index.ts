@@ -21,7 +21,7 @@ const rules = {
     rules: [
         {
             id: "item.name",
-            operator: "equals",
+            operator: "equal",
             value: "Test Item"
         },
         {

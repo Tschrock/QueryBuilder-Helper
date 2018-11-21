@@ -68,7 +68,7 @@ export class QueryBuilder {
         this.registerTypeAlias("boolean", "boolean");
 
         // Default operators
-        this.registerOperator(new Operator("equals", [
+        this.registerOperator(new Operator("equal", [
             new OperatorOverload("string", "string", (a, b) => a === b),
             new OperatorOverload("number", "number", (a, b) => a === b),
             new OperatorOverload("boolean", "boolean", (a, b) => a === b),
