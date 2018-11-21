@@ -1,6 +1,6 @@
 {
     "name": "querybuilder-helper",
-    "version": "0.0.1-beta",
+    "version": "0.0.2-beta",
     "description": "Helpers for Mistic's jQuery-QueryBuilder (https://github.com/mistic100/jQuery-QueryBuilder).",
     "keywords": [
         "jquery",
